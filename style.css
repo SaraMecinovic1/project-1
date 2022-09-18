@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+.desktop-nav {
+  width: 100%;
+  height: 80px;
+  background-color: #18c1db;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+position: sticky;
+top: 0;
+}
+
+.logo {
+  font-size: 25px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 50px;
+}
+
+.nav {
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.link {
+  margin-right: 50px;
+}
+.border {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+}
+.border a:hover {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  height: 90vh;
+  background-color: #18c1db;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 70px 0px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 200x;
+}
+.text {
+  width: 40%;
+  height: 50vh;
+
+  margin: 0px 20px;
+  padding: 0px 30px;
+}
+.bor1 {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  width: 130px;
+  height: 50px;
+  justify-content: center;
+  margin: 30px 0;
+  
+}
+.borx {
+  display: flex;
+}
+.bor1 a:hover {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bor2 {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  width: 130px;
+  height: 50px;
+  justify-content: center;
+  margin: 30px 20px;
+}
+
+.bor2 a {
+  color: black;
+}
+.bor2 a:hover {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h1 {
+  font-size: 50px;
+}
+.pic {
+  width: 50%;
+
+  margin: 30px ;
+}
+
+
+.main{
+   
+        width: 100%;
+        height: 100vh;
+        background-color:white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        align-items: center;
+        text-align: center;
+      padding-top: 130px;
+      
+}
+.main p{
+    color: gray;
+    padding-top: 20px;
+}
+
+.flex-card{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    height: 40vh;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+ 
+
+    
+}
+.card h2{
+    color: black;
+    padding: 20px 10px;
+}
+
+.card p{
+    color: grey;
+}
+.card a:hover{
+    color: #18c1db;
+    width: 100%;
+    height: 100%;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(231, 231, 231);
+    background-color: rgb(248, 247, 247);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px 110px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
