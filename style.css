@@ -1,11 +1,9 @@
 * {
   padding: 0;
   margin: 0;
-  
 }
-body{
-    font-size: 14px;
-    
+body {
+  font-size: 14px;
 }
 .desktop-nav {
   width: 100%;
@@ -17,10 +15,8 @@ body{
   text-align: center;
   justify-content: space-between;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-position: sticky;
-top: 0;
-
-
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -54,7 +50,6 @@ a {
   width: 130px;
   height: 50px;
   justify-content: center;
-  
 }
 .border a:hover {
   background-color: white;
@@ -78,14 +73,13 @@ a {
   align-items: center;
   padding-top: 2300x;
   padding-bottom: 230px;
- 
 }
 .text {
   width: 60%;
   height: 50vh;
 
   margin: 0px 10px;
-  padding: 0px 30px ;
+  padding: 0px 30px;
 }
 .bor1 {
   border: 1px solid white;
@@ -96,7 +90,6 @@ a {
   height: 50px;
   justify-content: center;
   margin: 30px 0;
-  
 }
 .borx {
   display: flex;
@@ -142,93 +135,81 @@ a {
 }
 .pic {
   width: 50%;
-padding-right: 50px;
-  margin: 60px 30px ;
-  
+  padding-right: 50px;
+  margin: 60px 30px;
 }
 
-
-.main{
-   
-        width: 100%;
-        height: 100vh;
-        background-color:white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        align-items: center;
-        text-align: center;
-      padding-top: 130px;
-      
-}
-.main p{
-    color: gray;
-    padding-top: 20px;
-}
-
-.flex-card{
-    display: flex;
-    justify-content: space-around;
-    margin: 60px 0px;
-    align-items: center;
-}
-.card{
-    width: 300px;
-    height: 40vh;
-    
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
- 
-
-    
-}
-.card h2{
-    color: black;
-    padding: 20px 10px;
-}
-
-.card p{
-    color: grey;
-}
-.card a:hover{
-    color: #18c1db;
-    width: 100%;
-    height: 100%;
-
-}
-.icon{
-    width: 50px;
-    height: 50px;
-    border: 1px solid rgb(231, 231, 231);
-    background-color: rgb(248, 247, 247);
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-    margin: 0px 110px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-.treca-sekcija{
+.main {
   width: 100%;
   height: 100vh;
- background-color:#edf6ff;;
- padding-top: 130px;
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  text-align: center;
+  padding-top: 130px;
+}
+.main p {
+  color: gray;
+  padding-top: 20px;
 }
 
-
-
-.borders{
-width: 100%;
-height: 80px;
-display: flex;
-justify-content: space-evenly;
-text-align: center;
-align-items: center;
-
-
+.flex-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0px;
+  align-items: center;
 }
-.item1{
+.card {
+  width: 300px;
+  height: 40vh;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.card h2 {
+  color: black;
+  padding: 20px 10px;
+}
+
+.card p {
+  color: grey;
+}
+.card a:hover {
+  color: #18c1db;
+  width: 100%;
+  height: 100%;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(231, 231, 231);
+  background-color: rgb(248, 247, 247);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin: 0px 110px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.treca-sekcija {
+  width: 100%;
+  height: 100vh;
+  background-color: #edf6ff;
+  padding-top: 130px;
+}
+
+.borders {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+.item1 {
   border: 1px solid white;
   background-color: white;
   border-radius: 7px;
@@ -238,62 +219,57 @@ align-items: center;
   align-items: center;
   margin-bottom: 50px;
 }
-.item1 a{
+.item1 a {
   color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
-.item2{
+.item2 {
   border: 1px solid white;
   border-radius: 7px;
   width: 250px;
   height: 60px;
   background-color: #18c1db;
-margin-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
   display: flex;
   align-items: center;
 }
-.item2 a{
+.item2 a {
   color: white;
-  
 }
 
-.deo{
+.deo {
   width: 100%;
   height: 70vh;
-  background-color:#edf6ff ;
+  background-color: #edf6ff;
   padding-top: 50px;
   display: flex;
- 
 }
 
-.deo1{
+.deo1 {
   width: 50%;
   height: 100%;
-  
+
   padding: 20px 50px;
   text-align: left;
-
 }
 
-
-.deo1 h1{
+.deo1 h1 {
   font-size: 35px;
   padding-bottom: 20px;
 }
-.deo1 h2{
+.deo1 h2 {
   font-size: 15px;
-  
 }
-.deo2{
+.deo2 {
   width: 50%;
   height: 100%;
-  
+
   padding-right: 40px;
 }
 
-.deo-bor{
+.deo-bor {
   border: 1px solid #18c1db;
   border-radius: 5px;
   background-color: #18c1db;
@@ -306,47 +282,47 @@ margin-bottom: 50px;
   align-items: center;
 }
 
-.cetvrta-sekcija{
+.cetvrta-sekcija {
   background-color: white;
   width: 100%;
   height: 100vh;
   padding-top: 100px;
   text-align: center;
 }
-.cetvrta-sekcija h1{
+.cetvrta-sekcija h1 {
   font-size: 35px;
 }
-.img{
+.img {
   padding-top: 50px;
 }
 
-.peta-sekcija{
+.peta-sekcija {
   width: 100%;
   height: 60vh;
   background-color: #edf6ff;
   padding: 100px 0;
   display: flex;
-
 }
 
-.prvi{
+.prvi {
   width: 40%;
   height: 100%;
   text-align: left;
   padding: 30px 50px;
 }
-.prvi h1{
+.peta-sekcija h1{
   font-size: 35px;
-  padding-bottom: 20px;
+ padding-bottom: 20px;
+ padding-top: 20px;
 }
-.prvi h2{
-font-size: 15px;
-
+.h2{
+  font-size: 12px;
 }
-.prvi p{
-  padding-bottom: 50px;
+.peta-sekcija p{
+  font-size: 15px;
+  padding-bottom: 60px;
 }
-.border5{
+.border5 {
   border: 1px solid #18c1db;
   border-radius: 5px;
   width: 350px;
@@ -355,8 +331,187 @@ font-size: 15px;
   padding: 15px 30px;
   text-align: center;
 }
-.border2{
+.border2 {
   width: 50%;
   height: 100%;
-  padding: ;
+}
+
+.sesta-sekcija {
+  width: 100%;
+  height: 150vh;
+}
+.sesta-sekcija h1 {
+  color: black;
+  font-size: 35px;
+  padding-top: 100px;
+}
+.sesta-sekcija p {
+  padding-bottom: 100px;
+}
+
+.f-2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cards {
+  height: 75vh;
+  background-color: pink;
+  width: 350px;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  margin: 30px 20px;
+  padding-bottom: 50px;
+}
+.cards-header {
+  background-color: #edf6ff;
+  padding: 30px;
+}
+
+.body-c {
+  flex-direction: column;
+  display: flex;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+}
+.body-c a {
+  padding: 8px;
+  color: grey;
+}
+
+.price{
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 280px;
+  height: 220px;
+  background-color:#edf6ff;
+ text-align: center;
+ margin-left: 31px;
+ 
+ display: flex;
+
+}
+
+
+
+.price-dolar{
+  font-size: 20px;
+  text-align: center;
+ 
+}
+.price-number{
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+
+
+}
+.price-text{
+  font-size: 15px ;
+  justify-content: right;
+  padding-top: 50px;
+ 
+}
+
+.botton6{
+  border: 1px solid #18c1db;
+  background-color: #18c1db;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+}
+.sedma-sekcija {
+  background-color: #edf6ff;;
+  width: 100%;
+  height: 97vh;
+}
+.sedma-sekcija h1 {
+  color: black;
+  font-size: 35px;
+  padding-top: 100px;
+}
+.sedma-sekcija p {
+  padding-bottom: 100px;
+}
+.flex-info{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+.info1{
+  width: 500px;
+  height: 35vh;
+  
+  border-radius: 5px;
+  text-align: left;
+ background-color: white;
+
+}
+
+
+.info1 p{
+  padding-left:100px ;
+  padding-bottom: 20px;
+}
+.info1 h2{
+  padding-left: 100px;
+  padding-bottom: 20px;
+  
+}
+.info2{
+  width: 500px;
+  height: 35vh;
+  background-color: white;
+  border-radius: 5px;
+  text-align: left;
+
+}
+.osma-sekcija{
+  width: 100%;
+  height: 60vh;
+  background-color:white;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.osma{
+  display: flex;
+}
+.osma-img{
+  width: 50%;
+  height: 50vh;
+  padding: 0px 50px;
+  display: flex;
+  
+}
+.osma-text{
+ 
+    width: 50%;
+    height: 50vh;
+    text-align: left;
+    padding: 30px 50px;
+   
+
+}
+
+.osma-sekcija h1{
+  font-size: 35px;
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
+.osma-sekcija h2{
+  font-size: 17px;
+}
+.osma-sekcija p{
+  font-size: 15px;
+  padding-bottom: 60px;
 }
