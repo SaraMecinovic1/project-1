@@ -61,6 +61,7 @@ a {
   align-items: center;
 }
 
+     /* PRVA SEKCIJA */
 .header {
   width: 100%;
   height: 80vh;
@@ -120,7 +121,7 @@ a {
   color: black;
 }
 .bor2 a:hover {
-  background-color: black;
+  background-color: #18c1db;
   border-radius: 3px;
   color: white;
   width: 100%;
@@ -139,7 +140,8 @@ a {
   margin: 60px 30px;
 }
 
-.main {
+      /* DRUGA SEKCIJA */
+.druga-sekcija {
   width: 100%;
   height: 100vh;
   background-color: white;
@@ -148,7 +150,7 @@ a {
   text-align: center;
   padding-top: 130px;
 }
-.main p {
+.druga-sekcija p {
   color: gray;
   padding-top: 20px;
 }
@@ -172,6 +174,7 @@ a {
   padding: 20px 10px;
 }
 
+
 .card p {
   color: grey;
 }
@@ -193,6 +196,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 
 .treca-sekcija {
   width: 100%;
@@ -216,14 +220,17 @@ a {
   width: 250px;
   height: 60px;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  text-align: center;
 }
 .item1 a {
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
+
 .item2 {
   border: 1px solid white;
   border-radius: 7px;
@@ -234,6 +241,7 @@ a {
   text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .item2 a {
   color: white;
@@ -310,15 +318,15 @@ a {
   text-align: left;
   padding: 30px 50px;
 }
-.peta-sekcija h1{
+.peta-sekcija h1 {
   font-size: 35px;
- padding-bottom: 20px;
- padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
-.h2{
+.h2 {
   font-size: 12px;
 }
-.peta-sekcija p{
+.peta-sekcija p {
   font-size: 15px;
   padding-bottom: 60px;
 }
@@ -358,9 +366,10 @@ a {
 
 .cards {
   height: 75vh;
-  background-color: rgb(247, 243, 243);
+  
   width: 350px;
   border-radius: 5px;
+  border: 1px solid gainsboro;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: black;
   margin: 30px 20px;
@@ -383,49 +392,65 @@ a {
   color: grey;
 }
 
-.price{
+.price {
   border: 1px solid white;
   border-radius: 5px;
-  width: 280px;
-  height: 220px;
-  background-color:#edf6ff;
- text-align: center;
- margin-left: 31px;
- 
- display: flex;
-
-}
-
-
-
-.price-dolar{
-  font-size: 20px;
+  width: 240px;
+  height: 170px;
+  background-color: #edf6ff;
   text-align: center;
- 
-}
-.price-number{
-  font-size: 40px;
-  text-align: center;
-  justify-content: center;
-
+  margin-left: 33px;
+  margin-bottom: 500px;
+flex-direction: column;
+  display: flex;
+  padding: 20px;
 
 }
-.price-text{
-  font-size: 15px ;
-  justify-content: right;
-  padding-top: 50px;
- 
-}
+.number{
+width: 280px;
+height: 100px;
+display: flex;
 
-.botton6{
+text-align: center;
+align-items: center;
+}
+.number h3{
+  font-size: 60px;
+  padding-left: 10px;
+  padding-bottom: 14px;
+  padding-right: 20px;
+}
+.number h4{
+font-size: 20px;
+align-items: center;
+text-align: center;
+padding-top: 10px;
+padding-left: 50px;
+padding-bottom: 40px;
+}
+.number p{
+align-items: center;
+text-align: left;
+padding-top: 100px;
+
+}
+.botton6 {
   border: 1px solid #18c1db;
   background-color: #18c1db;
-  width: 250px;
+  width: 150px;
   height: 50px;
   border-radius: 5px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  
 }
+
+
+/* SEDMA SEKCIJA */
 .sedma-sekcija {
-  background-color: #edf6ff;;
+  background-color: #edf6ff;
   width: 100%;
   height: 97vh;
 }
@@ -435,112 +460,118 @@ a {
   padding-top: 100px;
 }
 .sedma-sekcija p {
-  padding-bottom: 100px;
+  padding-bottom:20px;
 }
-.flex-info{
+
+
+.flex-info {
   width: 100%;
   height: 50vh;
   display: flex;
   justify-content: space-around;
-  
-  
 }
-.info1{
+.info1 {
   width: 500px;
-  height: 35vh;
-  
+  height: 27vh;
+  padding: 20px 20px 30px 20px;
   border-radius: 5px;
   text-align: left;
- background-color: white;
-
+  background-color: white;
+  display: flex;
 }
-
-
-.info1 p{
-  padding-left:100px ;
-  padding-bottom: 20px;
+.slika{
+  width: 20%;
+  height: 27vh;
+  padding-top: 23px;
+  padding-left: 20px;
 }
-.info1 h2{
-  padding-left: 100px;
-  padding-bottom: 20px;
+.sedma-text{
+  width: 80%;
+  height: 27vh;
   
 }
-.sedma-sekcija h2:hover{
+.sedma-text img{
+padding-bottom: 230px;
+}
+.sedma-text p {
+  
+  padding-bottom: 20px;
+  color: #777;
+}
+.sedma-text h2 {
+ 
+ 
+  
+}
+.sedma-sekcija h2:hover {
   color: #18c1db;
 }
-.info2{
+.info2 {
   width: 500px;
   height: 35vh;
   background-color: white;
   border-radius: 5px;
   text-align: left;
-
 }
-.osma-sekcija{
+   /* OSMA SEKCIJA */
+.osma-sekcija {
   width: 100%;
   height: 60vh;
-  background-color:white;
+  background-color: white;
   padding: 100px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
-.osma{
+.osma {
   display: flex;
 }
-.osma-img{
+.osma-img {
   width: 50%;
   height: 50vh;
   padding: 0px 50px;
   display: flex;
-  
 }
-.osma-text{
- 
-    width: 50%;
-    height: 50vh;
-    text-align: left;
-    padding: 30px 50px;
-   
-
+.osma-text {
+  width: 50%;
+  height: 50vh;
+  text-align: left;
+  padding: 30px 50px;
 }
 
-.osma-sekcija h1{
+.osma-sekcija h1 {
   font-size: 35px;
- padding-bottom: 20px;
- padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
-.osma-sekcija h2{
+.osma-sekcija h2 {
   font-size: 17px;
 }
-.osma-sekcija p{
+.osma-sekcija p {
   font-size: 15px;
   padding-bottom: 60px;
 }
 
-.deveta-sekcija{
+.deveta-sekcija {
   width: 100%;
   height: 60vh;
   background-color: #18c1db;
   text-align: center;
 }
-.deveta-sekcija h1{
+.deveta-sekcija h1 {
   font-size: 35px;
   color: white;
   padding-top: 100px;
 }
-.deveta-sekcija p{
+.deveta-sekcija p {
   font-size: 15px;
   color: white;
   padding-bottom: 50px;
 }
-.button9{
- 
-  
+.button9 {
   border: 2px solid white;
   display: flex;
-  background-color:white;
+  background-color: white;
   align-items: center;
   border-radius: 5px;
   width: 220px;
@@ -548,23 +579,128 @@ a {
   justify-content: center;
   margin-left: 530px;
 }
-.button9 a{
+.button9 a {
   color: black;
   font-size: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  
 }
-.button9 :hover{
-  background-color:#18c1db ;
+.button9 :hover {
+  background-color: #18c1db;
   color: white;
   width: 100%;
   height: 100%;
   border-radius: 5px;
   text-align: center;
   padding-top: 30px;
-
 }
+.deseta-sekcija {
+  width: 100%;
+  height: 60vh;
+  background-color: #000410;
+  display: flex;
+}
+.flex-colons {
+  width: 100%;
+  height: 30vh;
+  margin: 100px 50px 100px 50px;
+
+  padding: 0px 10px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* COLON 1 */
+.colon1 {
+  width: 430px;
+  height: 30vh;
+
+  margin-right: 10px;
+  flex-direction: column;
+  text-align: left;
+}
+.colon1 h3 {
+  font-size: 25px;
+  padding-bottom: 30px;
+  color: white;
+}
+.colon1 p {
+  font-size: 15px;
+  color: #777;
+  padding-bottom: 30px;
+}
+.p {
+  padding-bottom: 6px;
+  font-size: 15px;
+  color: #777;
+}
+.colon1 a {
+  color: #18c1db;
+  font-size: 16px;
+}
+/* COLON 2 */
+.colon2 {
+  width: 430px;
+  height: 30vh;
+
+  margin-right: 10px;
+  flex-direction: column;
+  text-align: left;
+}
+.colon2 h3 {
+  font-size: 25px;
+  padding-bottom: 30px;
+  color: white;
+  padding-left: 20px;
+}
+.colon2 p {
+  font-size: 15px;
+  color: #777;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+.form {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  padding-left: 20px;
+}
+.form input {
+  height: 40px;
+  width: 340px;
+  color: white;
+  padding-left: 10px;
+  color: black;
+}
+
+/* COLON 3 */
+.colon3 {
+  width: 220px;
+  height: 30vh;
+
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.colon3 h3 {
+  font-size: 25px;
+  padding-bottom: 30px;
+  color: white;
+  padding-left: 20px;
+}
+.colon3 p {
+  font-size: 15px;
+  color: #777;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+.social {
+  display: flex;
+}
+.social img {
+  padding-left: 20px;
+  color: white;
+}
+
+
