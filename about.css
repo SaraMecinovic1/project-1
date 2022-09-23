@@ -1,0 +1,96 @@
+/* PRVA */
+.logo a{
+    font-size: 27px;
+}
+    .about{
+    width: 100%;
+    height: 50vh;
+    background-color: #18c1db;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.about a{
+font-size: 17px;
+padding: 17px;
+}
+
+    /* DRUGA  */
+.treca-sekcija {
+    width: 100%;
+    height: 100vh;
+    background-color: #edf6ff;
+    padding-top: 130px;
+  }
+.item1 a {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  .deo1 h1 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .deo1 h2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+  }
+  .deo1 p{
+    font-size: 15px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .cetvrta-sekcija h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+  }
+    .cetvrta-sekcija p{
+        font-size: 14px;
+        color: grey;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+ /* CETVRTA */
+  .peta-sekcija h1{ 
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .peta-sekcija h2{
+font-size: 18px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .peta-sekcija p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    padding-top: 20px;
+  }
+  .border5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* SESTA */
+  .deveta-sekcija h1{
+font-size: 35px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-bottom: 20px;
+  }
+  .deveta-sekcija p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .button9{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* SEDMA */

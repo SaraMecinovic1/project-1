@@ -27,6 +27,9 @@ body {
   justify-content: left;
   padding-left: 60px;
 }
+.logo a{
+  font-size: 27px;
+}
 
 .nav {
   width: 550px;
@@ -197,7 +200,7 @@ a {
   padding-right: 10px;
 }
 
-
+/* TRECA SEKCIJA */
 .treca-sekcija {
   width: 100%;
   height: 100vh;
@@ -266,6 +269,7 @@ a {
 .deo1 h1 {
   font-size: 35px;
   padding-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .deo1 h2 {
   font-size: 15px;
@@ -289,7 +293,7 @@ a {
   text-align: center;
   align-items: center;
 }
-
+ /* CETVRTA */
 .cetvrta-sekcija {
   background-color: white;
   width: 100%;
@@ -304,6 +308,7 @@ a {
   padding-top: 50px;
 }
 
+/* PETA */
 .peta-sekcija {
   width: 100%;
   height: 60vh;
@@ -552,6 +557,7 @@ padding-bottom: 230px;
   padding-bottom: 60px;
 }
 
+/* DEVETA */
 .deveta-sekcija {
   width: 100%;
   height: 60vh;
