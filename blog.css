@@ -1,0 +1,195 @@
+/* PRVA */
+.blog-prva{
+   background: url(./slike/blog.webp) ;
+   width: 100%;
+   height: 80vh;
+   padding-top: 300px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   
+ 
+}
+.blog-prva h1{
+    font-size: 60px;
+    color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blog-prva p{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    color: white;
+}
+.button{
+    border: 1px solid white;
+    width: 167px;
+    height: 33px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    margin-left: 540px;
+    margin-top: 30px;
+    padding-top: 10px;
+    
+}
+.blog-prva a{
+    color: rgb(31, 31, 31);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.button :hover{
+   
+    background-color: #18c1db;
+    width: 100%;
+    height: 33px;
+    color: white;
+}
+
+/* DRUGA SEKCIJA */
+.blog-druga{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    
+}
+.kartice{
+    width: 100%;
+    height: 40vh;
+    margin: 50px ;
+   padding-top: 35px;
+   padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.kartica1 h1{
+   font-size: 30px;
+}
+
+
+
+/* TRECA SEKCIJA */
+.blog-treca{
+    width: 100%;
+   height: 400vh ;
+   display: flex;
+
+}
+.blog-text{
+    width: 70%;
+    height: 100%;
+   
+    margin: 50px 40px 50px 50px;
+    flex-direction: column;
+}
+.blog-info{
+    width: 30%;
+    height: 100%;
+    background-color: burlywood;
+    margin: 50px 50px 50px 0px;
+    flex-direction: column;
+
+}
+.text-prvi{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    
+    margin-bottom: 40px;
+}
+.bio{
+    width: 30%;
+    height: 100%;
+   
+    margin-right: 10px;
+   padding-top: 30px;
+   text-align: right;
+}
+.opis{
+    width: 70%;
+    height: 100%;
+   
+    
+    flex-direction: column;
+    
+}
+.teh2 {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: right;
+   color: black;
+  
+    
+    
+}
+.teh {
+    color: #18c1db;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: right;
+}
+.name{
+    display: flex;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    text-align: right;
+   
+}
+.name p{
+    padding-right: 10px;
+    text-align: right;
+    
+}
+.name p:hover{
+    color: #18c1db;
+}
+
+.opis a{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    text-align: left;
+    
+}
+.opis a:hover{
+    color: #18c1db;
+}
+.opis p{
+    color: grey;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.border3{
+    border: 1px solid grey;
+    background-color: rgb(221, 233, 248);
+    width: 125px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+ 
+}
+.border3 a{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+.border3:hover{
+    background-color: #18c1db;
+    border: 1px solid #18c1db;
+    width: 125px;
+    
+    height: 30px;
+    
+}
+.border3 a:hover{
+    color: white;
+}
