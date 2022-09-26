@@ -710,5 +710,8 @@ padding-bottom: 230px;
   padding-left: 20px;
   color: white;
 }
+.social :hover{
+  color: #18c1db;
+}
 
 
