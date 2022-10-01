@@ -1,0 +1,132 @@
+/* PRVA */
+.contact-prva{
+    width: 100%;
+    height: 62vh;
+    background-color: #18c1db;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-prva h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 190px;
+    padding-bottom: 10px;
+}
+.contact-prva a{
+    font-size: 15px;
+padding: 5px;
+}
+/* DRUGA */
+.contact-druga{
+    width: 100%;
+    height: 130vh;
+    background-color: white;
+    padding-top: 130px;
+   flex-direction: column;
+    
+}
+iframe{
+    margin-left: 58px;
+    margin-right: 50px;
+    width: 91%;
+    height: 450px;
+    margin-bottom: 100px;
+}
+/*TRECA */
+.contact-treca{
+    width: 100%;
+    height: 35vh;
+    
+    display: flex;
+    
+
+}
+.cont-1{
+    width: 27%;
+    height: 100%;
+   
+    margin-left: 58px;
+    margin-right: 10px;
+}
+.cont-2{
+    width: 35%;
+    height: 70%;
+   
+    margin-right: 10px;
+    
+}
+.cont-3{
+    width: 35%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    margin-right: 50px;
+    
+}
+.red{
+    width: 100%;
+    height: 59px;
+    
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.cont-img{
+    width: 42px;
+    height: 100%;
+    
+}
+.cont-text{
+    flex-direction: column;
+}
+.cont-text h4{
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+
+}
+.cont-text p{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(160, 160, 160);
+}
+.cont-text a{
+    font-size: 16px;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.cont-input{
+    width: 380px;
+    height: 40px;
+    border: 1px solid rgb(228, 227, 227);
+    margin: 0px 10px 10px 10px;
+border-radius: 0px;
+color: grey;
+padding-left: 20px;
+}
+.cont-input2{
+    width: 94%;
+    height: 150px;
+    text-align: start;
+    align-items: flex-start;
+   border: 1px solid rgb(228, 228, 228);
+   padding-left: 20px;
+}
+.cont-border{
+    border: 1px solid #18c1db;
+    background-color: #18c1db;
+    width: 200px;
+    height: 39px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    justify-content: center;
+    margin-left:200px;
+    margin-top: 30px;
+}
