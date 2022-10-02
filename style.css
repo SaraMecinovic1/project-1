@@ -7,7 +7,7 @@ body {
 }
 .desktop-nav {
   width: 100%;
-  height: 70px;
+  height: 60px;
   background-color: #18c1db;
   color: white;
   display: flex;
@@ -17,6 +17,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: fixed;
   top: 0;
+  padding-top: 10px;
 }
 
 .logo {
@@ -29,6 +30,7 @@ body {
 }
 .logo a{
   font-size: 27px;
+  padding-bottom: 10px;
 }
 
 .nav {
@@ -37,6 +39,8 @@ body {
   align-items: center;
   justify-content: space-around;
   color: white;
+  padding-bottom: 10px;
+
 }
 a {
   color: white;
@@ -51,8 +55,10 @@ a {
   align-items: center;
   border-radius: 3px;
   width: 130px;
-  height: 50px;
+  height: 48px;
   justify-content: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 .border a:hover {
   background-color: white;
@@ -155,7 +161,8 @@ a {
 }
 .druga-sekcija p {
   color: gray;
-  padding-top: 20px;
+  padding-top: 10px;
+  font-size: 14px;
 }
 .druga-sekcija h1{
   font-size: 35px;
@@ -163,7 +170,7 @@ a {
 .flex-card {
   display: flex;
   justify-content: space-around;
-  margin: 60px 0px;
+  margin: 60px 40px;
   align-items: center;
 }
 .card {
@@ -178,10 +185,14 @@ a {
   color: black;
   padding: 20px 10px;
 }
-
+.card h2:hover{
+  color: #18c1db;
+}
 
 .card p {
   color: grey;
+  font-size: 14px;
+
 }
 .card a:hover {
   color: #18c1db;
@@ -216,12 +227,13 @@ a {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  
   align-items: center;
 }
 .item1 {
   border: 1px solid white;
   background-color: white;
-  border-radius: 7px;
+  border-radius: 5px;
   width: 250px;
   height: 60px;
   display: flex;
@@ -237,8 +249,8 @@ a {
 }
 
 .item2 {
-  border: 1px solid white;
-  border-radius: 7px;
+  border: 1px solid #18c1db;
+  border-radius: 5px;
   width: 250px;
   height: 60px;
   background-color: #18c1db;
@@ -263,8 +275,8 @@ a {
 .deo1 {
   width: 50%;
   height: 100%;
-
-  padding: 20px 50px;
+margin-left: 20px;
+  padding: 10px 50px;
   text-align: left;
 }
 
@@ -273,8 +285,10 @@ a {
   padding-bottom: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.deo1 h2 {
-  font-size: 15px;
+.deo1 h5 {
+  font-size: 17px;
+  color: #000410;
+  
 }
 .deo2 {
   width: 50%;
@@ -330,7 +344,7 @@ a {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-.h2 {
+.h5 {
   font-size: 12px;
 }
 .peta-sekcija p {
@@ -340,7 +354,7 @@ a {
 .border5 {
   border: 1px solid #18c1db;
   border-radius: 5px;
-  width: 350px;
+  width: 360px;
   height: 100px;
   background-color: #18c1db;
   padding: 15px 30px;
@@ -350,7 +364,7 @@ a {
   width: 50%;
   height: 100%;
 }
-
+/* SESTA */
 .sesta-sekcija {
   width: 100%;
   height: 150vh;
@@ -453,6 +467,10 @@ padding-top: 100px;
   margin-top: 10px;
   
 }
+.botton6 :hover{
+  background-color: white;
+  color: black;
+}
 
 
 /* SEDMA SEKCIJA */
@@ -465,9 +483,10 @@ padding-top: 100px;
   color: black;
   font-size: 35px;
   padding-top: 100px;
+  padding-bottom: 10px;
 }
 .sedma-sekcija p {
-  padding-bottom:20px;
+  padding-bottom:80px;
 }
 
 
@@ -478,10 +497,10 @@ padding-top: 100px;
   justify-content: space-around;
 }
 .info1 {
-  width: 500px;
+  width: 470px;
   height: 27vh;
   padding: 20px 20px 30px 20px;
-  border-radius: 5px;
+  border-radius: 7px;
   text-align: left;
   background-color: white;
   display: flex;
@@ -543,7 +562,7 @@ padding-bottom: 230px;
   width: 50%;
   height: 50vh;
   text-align: left;
-  padding: 30px 50px;
+  padding: 30px 20px;
 }
 
 .osma-sekcija h1 {
@@ -601,6 +620,7 @@ padding-bottom: 230px;
   color: white;
   width: 100%;
   height: 100%;
+ 
   border-radius: 5px;
   text-align: center;
   padding-top: 30px;
@@ -615,33 +635,35 @@ padding-bottom: 230px;
   width: 100%;
   height: 30vh;
   margin: 100px 50px 100px 50px;
-
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0px 10px;
   display: flex;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
 }
 /* COLON 1 */
 .colon1 {
   width: 430px;
   height: 30vh;
 
-  margin-right: 10px;
+  margin-right: 30px;
   flex-direction: column;
   text-align: left;
 }
 .colon1 h3 {
-  font-size: 25px;
+  font-size: 22px;
   padding-bottom: 30px;
   color: white;
 }
 .colon1 p {
-  font-size: 15px;
+  font-size: 14px;
   color: #777;
   padding-bottom: 30px;
+  
+
 }
 .p {
   padding-bottom: 6px;
-  font-size: 15px;
+  font-size: 14px;
   color: #777;
 }
 .colon1 a {
@@ -652,19 +674,19 @@ padding-bottom: 230px;
 .colon2 {
   width: 430px;
   height: 30vh;
-
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-right: 10px;
   flex-direction: column;
   text-align: left;
 }
 .colon2 h3 {
-  font-size: 25px;
+  font-size: 22px;
   padding-bottom: 30px;
   color: white;
   padding-left: 20px;
 }
 .colon2 p {
-  font-size: 15px;
+  font-size: 14px;
   color: #777;
   padding-bottom: 30px;
   padding-left: 20px;
@@ -687,12 +709,12 @@ padding-bottom: 230px;
 .colon3 {
   width: 220px;
   height: 30vh;
-
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
 }
 .colon3 h3 {
-  font-size: 20px;
+  font-size: 22px;
   padding-bottom: 30px;
   color: white;
   padding-left: 40px;
